@@ -4,8 +4,8 @@ The goal of this project is to examine on how the prior knowledge affect the res
 
 > Experiments are performed to understand the relationship between informativeness of the prior and dataset sample size. From the survey of the previous works, one consistent finding was that if prior beliefs are closer to the true model, then they improve the learning process but if priors are misleading or incorrect, they harm the learning process. The thought is to further understand this phenomenon by doing various experiments which systematically vary dataset size and prior correctness. The project will also focus on understanding the relationship between how complicated the prior is (expressiveness of prior e.g. edge orientation vs path) and learning accuracy.
 
-> - Vary the correctness of the prior provided by the user of the algorithm and run algorithm for fixed dataset size. This can be done by providing arguments to the structure learning algorithm in the form of blacklists and whitelists.
-> - Vary the size of the dataset and keep the correctness of the prior fixed. 
+> -- Vary the correctness of the prior provided by the user of the algorithm and run algorithm for fixed dataset size. This can be done by providing arguments to the structure learning algorithm in the form of blacklists and whitelists.
+> -- Vary the size of the dataset and keep the correctness of the prior fixed. 
 
 
 
