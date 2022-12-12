@@ -1,4 +1,8 @@
 # Evaluate effects of different kind of prior knowledge in causal structure learning from data
+
+## Motivation
+In a causal discovery task, when there are a large number of variables in a system, the number of possible causal graph structures increases exponentially and it becomes computationally intractable for causal structure learning algorithms to test each structure. Mostly in the real world, experts have domain knowledge to remove certain hypotheses from consideration. This knowledge can be encoded as prior knowledge while searching for accurate causal structure. However, it is not clear if all kinds of prior knowledge are useful and what role they play in the efficiency and accuracy of learning structures. In this project, it will focus on understanding the effects of providing different prior knowledge on algorithms which learn the causal structure among variables from given data.
+
 ## The proposed project
 The goal of this project is to examine on how the prior knowledge affect the result of learning causal structure from a given dataset. In specific, the incorrect edges are added to the blacklist and white list as prior knowledge for the examination of the result.
 
